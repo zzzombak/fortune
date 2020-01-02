@@ -16,11 +16,11 @@ function main() {
     const ctx = canvas.getContext("2d");
 
     if (window.innerWidth > window.innerHeight) {
-        canvas.width = window.innerHeight - (window.innerHeight / 100) * 25;
-        canvas.height = window.innerHeight - (window.innerHeight / 100) * 25;
+        canvas.width = window.innerHeight - (window.innerHeight / 100) * 10;
+        canvas.height = window.innerHeight - (window.innerHeight / 100) * 10;
     } else {
-        canvas.width = window.innerWidth - (window.innerWidth / 100) * 25;
-        canvas.height = window.innerWidth - (window.innerWidth / 100) * 25;
+        canvas.width = window.innerWidth - (window.innerWidth / 100) * 10;
+        canvas.height = window.innerWidth - (window.innerWidth / 100) * 10;
     }
 
     let slicesList = [
